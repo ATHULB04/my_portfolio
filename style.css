@@ -78,29 +78,32 @@ nav{
     padding-left: 5%;
     padding-right: 8%;
 }
-/*--- course ----*/
-course{
-    width:80%;
-    margin:auto;
-    text-align:center;
-    padding-top:100;
-}
 h1{
     font-size:36px;
     font-weight:500px;
     text-align:center;
 }
-interest{
-    width:80%;
-    margin:auto;
-    text-align:center;
-    padding-top:80px;
+.content{
+    background-image:url(assets/earth.jpg);
+    background-size:100%;
+    display: flex;
+    padding: 50px;
+
 }
-html{
-    background:greenyellow;
-    height: 100%;
-    width:100%;
-    position: absolute;
-    top:0;
+.content p{
+    font-size: 30px;
+    font-style: italic;
+    color:#ffffff;
 }
+.content h1{
+    color:#ffffff;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    padding:40px;
+    image-rendering:pixelated;
+    border-radius: 85px;
+}
+
 

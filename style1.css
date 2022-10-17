@@ -1,0 +1,13 @@
+interest{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:80px;
+}
+html{
+    background:greenyellow;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0;
+}

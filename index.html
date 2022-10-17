@@ -10,7 +10,7 @@
             <nav>
                 <h2 class="logo">ATH<span>UL</span></h2>
                 <ul>
-                    <li><a href="interest"> * MY INTEREST</a></li>
+                    <li><a href=""> * MY INTEREST</a></li>
                     <li><a href="#"> * SKILLS</a></li>
                     <li><a href="#"> * CONTACT</a></li>
                 </ul>
@@ -19,64 +19,22 @@
                 <h3>Hi.. I Am ATHUL BABU</h3>
                 <p> Do you want to know more about me</p>
             <div class="banner-btn">
-                <a href="content">readmore</a>
+                <a href="#con">readmore</a>
             </div>
             </div>
         </section>
         <!----- content ---->
-        <section class="content">
-            <h1> ABOUT ME</h1>
-            <p> I am ATHUL BABU.</p>
+        <section class="content" id="con">
+            <div>
+                <h1> ABOUT ME</h1>
+            <p> My self ATHUL BABU.</p>
+            <p>I am a second year btech student at model engineering college.</p>
+            <p>And my trade is electronics and communication</p>
+            <p>I love to code and i am good at c and python.<br>For improving the scope i like to learn some of the frontend programming languages</p>
+            </div>
+            
+            <img src="assets/photo.png" alt="photo" width="100" height="100">
             
         </section>
-        <!--- interest--->
-        <section calss="interest">
-            <h1>FOLLOWING ARE MY INTEREST:</h1>
-            <div class="interest-html">
-                <img src="assets/HTML.png" alt="html" width="250" height="250">
-                <h5>HTML</h5>
-            </div>
-            <img src="assets/css.png" alt="css" width="250" height="250">
-            <img src="assets/js.png" alt="js" width="250" height="250">
-
-        </section>
-    <!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
 </body>
 </html>
