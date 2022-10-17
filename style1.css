@@ -1,13 +1,51 @@
-interest{
-    width:80%;
-    margin:auto;
-    text-align:center;
-    padding-top:80px;
+*{
+    margin:0;
+    padding:0;
 }
-html{
-    background:greenyellow;
-    height: 100%;
-    width:100%;
-    position: absolute;
-    top:0;
+.interest{
+    background-image:url(assets/CODING.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    color:white;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+span{
+    color:#f9004d;
+}
+.html{
+    flex-basis: 32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-top:20px;
+}
+.img img{
+    width:200px;
+    height: 250px;
+    display:flex;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.729);
+    border-radius: 20px;
+}
+.img-stack{
+    display: flex;
+
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 20px;
 }
