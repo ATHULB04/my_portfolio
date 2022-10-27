@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+}
+.interest{
+    background-image:url(assets/CODING.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    text-align: center;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1{
+    color:white;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+span{
+    color:#f9004d;
+}
+.img img{
+    width:200px;
+    height:250px;
+    display:flex;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.729);
+    border-radius: 20px;
+    transition:o.5s ;
+    
+}
+@keyframes float {
+    0%{
+        box-shadow: 0 5px 15px 0 px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+    50%{
+        box-shadow: 0 25px 15px 0 px rgba(0,0,0,0.2);
+        transform: translateY(-20px);
+    }
+    100%{
+        box-shadow: 0 5px 15px 0 px rgba(0,0,0,0.6);
+        transform: translateY(0px);
+    }
+    
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 50px;
+}
+.layer{
+    background: #f9004d;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    align-content: flex-start;
+}
+.layer:hover{
+    background:none;
+}
